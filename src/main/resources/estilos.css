@@ -1,0 +1,70 @@
+/* estilo clean com foco em legibilidade e “cartões” bonitos */
+.root {
+  -fx-font-family: "Inter", "Segoe UI", "Arial";
+  -fx-base: #0f172a;
+  -fx-background: #0b1220;
+  -fx-text-fill: #e5e7eb;
+}
+
+.container {
+  -fx-background-color: transparent;
+}
+
+.titulo {
+  -fx-font-size: 24px;
+  -fx-font-weight: 700;
+  -fx-fill: #e2e8f0;
+}
+
+.resumo {
+  -fx-font-size: 14px;
+  -fx-text-fill: #cbd5e1;
+}
+
+.label, .table-view, .chart {
+  -fx-text-fill: #e5e7eb;
+}
+
+.card, .table-view {
+  -fx-background-color: #111827;
+  -fx-background-radius: 14px;
+  -fx-padding: 10px;
+  -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.35), 16, 0.2, 0, 8);
+  -fx-border-color: #1f2937;
+  -fx-border-radius: 14px;
+}
+
+.table-view .column-header-background {
+  -fx-background-color: #0b1220;
+}
+
+.table-view .column-header, .table-view .filler {
+  -fx-background-color: transparent;
+  -fx-size: 36px;
+}
+
+.table-view .table-row-cell:filled:selected,
+.table-view .table-row-cell:filled:selected .text {
+  -fx-background-color: #1d4ed8;
+  -fx-text-fill: white;
+}
+
+.button {
+  -fx-background-color: #1d4ed8;
+  -fx-text-fill: white;
+  -fx-background-radius: 10px;
+  -fx-font-weight: 600;
+}
+
+.button:hover {
+  -fx-background-color: #2563eb;
+}
+
+.date-picker, .text-field, .combo-box {
+  -fx-background-color: #0b1220, #0b1220, #0b1220;
+  -fx-text-fill: #e5e7eb;
+  -fx-background-radius: 10px;
+  -fx-padding: 6px 10px;
+  -fx-border-color: #1f2937;
+  -fx-border-radius: 10px;
+}
