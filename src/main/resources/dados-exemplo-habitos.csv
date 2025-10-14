@@ -1,3 +1,31 @@
-AlimentacaoHabito;H3;Almoço vegetariano;2025-10-14;1,00
-EnergiaHabito;H1;Desligar stand-by;2025-10-13;2,00
-TransporteHabito;H2;Ir de bike ao trabalho;2025-10-12;8,00
+AlimentacaoHabito;H131;Comer mais legumes e verduras da estação;2025-10-21;0.70
+EnergiaHabito;H132;Usar o modo economia de energia em eletrônicos;2025-10-21;0.60
+EnergiaHabito;H129;Reduzir tempo de banho;2025-10-20;1.50
+TransporteHabito;H130;Usar patinete elétrico em curtas distâncias;2025-10-20;2.30
+EnergiaHabito;H126;Usar micro-ondas em vez do forno elétrico;2025-10-19;1.20
+AlimentacaoHabito;H128;Levar marmita de casa para evitar delivery;2025-10-19;1.10
+TransporteHabito;H127;Compartilhar carro com colegas de trabalho;2025-10-19;4.80
+AlimentacaoHabito;H125;Comprar alimentos a granel para reduzir embalagens;2025-10-18;0.90
+TransporteHabito;H119;Usar carona solidária;2025-10-16;4.00
+EnergiaHabito;H118;Aproveitar luz natural;2025-10-16;0.50
+EnergiaHabito;H115;Usar tomada inteligente;2025-10-15;0.70
+AlimentacaoHabito;H117;Almoço vegetariano;2025-10-15;1.20
+TransporteHabito;H116;Trocar carro por bike;2025-10-15;7.00
+TransporteHabito;H109;Caminhar até o mercado;2025-10-14;2.00
+AlimentacaoHabito;H3;Almoço vegetariano;2025-10-14;1.00
+AlimentacaoHabito;H114;Comer frutas da estação;2025-10-14;0.40
+EnergiaHabito;H104;Desligar PC à noite;2025-10-13;0.90
+TransporteHabito;H108;Ficar em home office;2025-10-13;3.00
+EnergiaHabito;H1;Desligar stand-by;2025-10-13;2.00
+AlimentacaoHabito;H113;Evitar desperdício de comida;2025-10-13;0.60
+EnergiaHabito;H103;Trocar lâmpadas por LED;2025-10-12;1.50
+TransporteHabito;H107;Carona com colegas;2025-10-12;5.00
+TransporteHabito;H2;Ir de bike ao trabalho;2025-10-12;8.00
+AlimentacaoHabito;H112;Refeição com produtos locais;2025-10-12;0.80
+EnergiaHabito;H102;Usar ventilador em vez de ar-condicionado;2025-10-11;2.00
+TransporteHabito;H106;Usar transporte público;2025-10-11;6.00
+AlimentacaoHabito;H111;Jantar sem carne vermelha;2025-10-11;1.00
+EnergiaHabito;H100;Desligar luz do quarto ao sair;2025-10-10;0.50
+EnergiaHabito;H101;Tirar carregadores da tomada;2025-10-10;0.30
+TransporteHabito;H105;Ir de bicicleta ao trabalho;2025-10-10;4.00
+AlimentacaoHabito;H110;Dia vegetariano;2025-10-10;2.50

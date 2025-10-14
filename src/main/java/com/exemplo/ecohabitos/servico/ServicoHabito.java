@@ -3,6 +3,7 @@ package com.exemplo.ecohabitos.servico;
 import com.exemplo.ecohabitos.dominio.Habito;
 import com.exemplo.ecohabitos.dominio.ImpactoCalculadora;
 import com.exemplo.ecohabitos.repositorio.Repositorio;
+
 import java.time.LocalDate;
 import java.util.Comparator;
 import java.util.List;
@@ -23,6 +24,22 @@ public class ServicoHabito {
         return repositorio.salvar(habito);
     }
 
+    public int importar(List<Habito> habitos, boolean ignorarDuplicados) {
+        int adicionados = 0;
+        for (Habito h : habitos) {
+            if (ignorarDuplicados && repositorio.existePorId(h.getId())) {
+                continue;
+            }
+            repositorio.salvar(h);
+            adicionados++;
+        }
+        return adicionados;
+    }
+
+    public boolean existePorId(String id) {
+        return repositorio.existePorId(id);
+    }
+
     public List<Habito> listarOrdenadoPorDataDecrescente() {
         return repositorio.listarTodos().stream()
                 .sorted(Comparator.comparing(Habito::getData).reversed())
@@ -37,7 +54,8 @@ public class ServicoHabito {
 
     public double somarImpactoPeriodo(LocalDate inicio, LocalDate fim) {
         return filtrarPorPeriodo(inicio, fim).stream()
-                .mapToDouble(impactoCalculadora::calcular)
+                .mapToDouble(impactoCalculadora::calcular) // [METHOD REFERENCE]
                 .sum();
     }
 }
+
