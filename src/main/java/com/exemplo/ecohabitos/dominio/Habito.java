@@ -22,9 +22,12 @@ public abstract class Habito {
 
     public abstract double calcularImpacto();
 
-    public String getId() { return id; }
+    public String getId() { 
+        return id; }
 
-    public String getNome() { return nome; }
+    public String getNome() { 
+        return nome; }
+    
     public void setNome(String nome) {
         if (nome == null || nome.isBlank()) {
             throw new HabitoInvalidoException("Nome do hábito inválido.");
@@ -40,7 +43,9 @@ public abstract class Habito {
         this.data = data;
     }
 
-    public double getQuantidade() { return quantidade; }
+    public double getQuantidade() {
+        return quantidade; }
+    
     public void setQuantidade(double quantidade) {
         if (quantidade <= 0) {
             throw new HabitoInvalidoException("Quantidade deve ser positiva.");
@@ -55,7 +60,8 @@ public abstract class Habito {
         return Objects.equals(id, habito.id);
     }
 
-    @Override public int hashCode() { return Objects.hash(id); }
+    @Override public int hashCode() { 
+        return Objects.hash(id); }
 
     @Override public String toString() {
         return "%s{id='%s', nome='%s', data=%s, quantidade=%.2f}"
