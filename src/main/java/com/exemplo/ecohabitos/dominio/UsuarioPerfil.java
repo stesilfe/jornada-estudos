@@ -17,7 +17,9 @@ public class UsuarioPerfil {
         this.nome = nome;
     }
 
-    public double getMetaSemanalKgCO2() { return metaSemanalKgCO2; }
+    public double getMetaSemanalKgCO2() {
+        return metaSemanalKgCO2; }
+    
     public void setMetaSemanalKgCO2(double metaSemanalKgCO2) {
         if (metaSemanalKgCO2 < 0) {
             throw new IllegalArgumentException("Meta semanal não pode ser negativa.");
