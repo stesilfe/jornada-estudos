@@ -35,7 +35,9 @@ public abstract class Habito {
         this.nome = nome;
     }
 
-    public LocalDate getData() { return data; }
+    public LocalDate getData() {
+        return data; }
+    
     public void setData(LocalDate data) {
         if (data == null) {
             throw new HabitoInvalidoException("Data do hábito não pode ser nula.");
