@@ -36,7 +36,6 @@ public class DashboardApp extends Application {
 
     private final DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
-    // UI
     private TableView<Habito> tabela;
     private BarChart<String, Number> graficoBarra;
     private PieChart graficoPizza;
